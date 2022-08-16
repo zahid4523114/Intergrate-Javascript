@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.header-container-first {
+  width: 100%;
+  padding-top: 2%;
+  background-image: url(images/photo2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+.header-container-second {
+  width: 100%;
+  padding-top: 2%;
+  background-image: url(images/photo3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+}
+.change-img {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+  color: rgb(164, 164, 164);
+  background-color: white;
+  font-size: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.nav-links {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  font-family: serif;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.nav-links ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+.nav-links ul li a:hover {
+  color: rgb(16, 159, 78);
+}
+.nav-links ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.active {
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+#button {
+  color: rgb(16, 159, 78);
+  background-color: white;
+  /* transition: color, background-color 1s; */
+}
+#button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(16, 159, 78);
+}
+#button-second {
+  color: #fb5200;
+  background-color: white;
+  /* transition: color, background-color 1s; */
+}
+#button-second:hover {
+  color: rgb(255, 255, 255);
+  background-color: #fb5200;
+}
+
+.text-box {
+  width: 40%;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: white;
+}
+.btn-first {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  /* transition: background-color 0.8s; */
+}
+.btn-first:hover {
+  background-color: rgb(16, 159, 78);
+}
+
+.btn-second {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  /* transition: background-color 0.8s; */
+}
+.btn-second:hover {
+  background-color: #fb5200;
+}
